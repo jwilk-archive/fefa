@@ -4,6 +4,8 @@
 import argparse
 import math
 
+lambda: ((x := 0) or x)  # Python >= 3.8 is required
+
 def factor(n):
     sqrt = math.isqrt
     if n < 0:
